@@ -1,0 +1,90 @@
+
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+.header{
+    color: white;
+    display: flex;
+}
+.header-logo{
+    background-color:black;
+    width: 80%;
+    float: left;
+}
+.header-end{
+    background-color:black;
+    width: 20%;
+    float: right;
+    height: auto;
+}
+#profile-photo{
+    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+#name{
+    display: inline;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 70px;
+}
+.link{
+    width: 50px;
+    height: 50px;
+    padding-right: 30px;
+}
+.searchbar{
+    margin-top: 15px;
+    width: 220px;
+}
+.left-sidebar{
+    float: left;
+    width: 25%;
+    background-color: gray;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.left-sidebar p{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.right-sidebar{
+    float: left;
+    width: 25%;
+    background-color: gray;
+    padding-left: 20px;
+    overflow: auto;
+    padding-top: 30px;
+}
+.main{
+    float: left;
+    width: 50%;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+    padding-top: 30px;
+}
+h2{
+    font-weight: bolder;
+    font-size: larger;
+}
+.content{
+    display: flex;
+}
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
