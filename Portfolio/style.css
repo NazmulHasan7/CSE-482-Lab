@@ -44,6 +44,7 @@ html,body {
 .searchbar{
     margin-top: 15px;
     width: 220px;
+    margin-bottom: 15px;
 }
 .left-sidebar{
     float: left;
@@ -66,6 +67,7 @@ html,body {
     padding-left: 20px;
     overflow: auto;
     padding-top: 30px;
+    text-align: justify;
 }
 .main{
     float: left;
@@ -87,4 +89,93 @@ h2{
     background-color: black;
     text-align: center;
     padding: 30px;
+}
+@media screen and (max-width: 1100px) {
+    .searchbar{
+        margin-bottom: 15px;
+    }
+    .header-logo{
+        width: 77%;
+    }
+    .header-end{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .searchbar{
+        margin-bottom: 15px;
+    }
+    .header-logo{
+        width: 72%;
+    }
+    .header-end{
+        width: 28%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header-logo{
+        width: 100%;
+        padding-left: calc(width - 5%);
+    }
+    .header-end{
+        width: 100%;
+        text-align: center;
+    }
+    .link{
+        padding-right: 20px;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .left-sidebar{
+        width: 100%;
+        padding: 5px;
+    }
+    .main{
+        width: 100%;
+        padding: 10px;
+    }
+    .right-sidebar{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .header-end{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    #profile-photo{
+        text-align: center;
+    }
+    #name{
+        display:flex;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding-left: 20px;
+        text-align: center;
+        justify-content: center;
+    }
 }
