@@ -171,10 +171,11 @@ h2{
     #name{
         display:flex;
         width: 100%;
-        padding-top: 20px;
+        padding-top: 30px;
         margin-bottom: 0px;
         overflow: hidden;
         text-align: center;
         justify-content: center;
+        font-size: xx-large;
     }
 }
